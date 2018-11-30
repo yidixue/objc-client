@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = "BizSwaggerClient"
+    s.name             = "SwaggerClient"
     s.version          = "1.0.0"
 
     s.summary          = "领商-对外开放服务API"
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 
     s.framework    = 'SystemConfiguration'
 
-    s.homepage     = "https://github.com/yidixue/objc-client"
+    s.homepage     = "https://github.com/swagger-api/swagger-codegen"
     s.license      = "Proprietary"
-    s.source       = { :git => "https://github.com/yidixue/objc-client.git", :tag => "#{s.version}" }
-    s.author       = { "yidixue" => "partylike@126.com" }
+    s.source       = { :git => "https://github.com/swagger-api/swagger-codegen.git", :tag => "#{s.version}" }
+    s.author       = { "Swagger" => "apiteam@swagger.io" }
 
     s.source_files = 'SwaggerClient/**/*.{m,h}'
     s.public_header_files = 'SwaggerClient/**/*.h'
