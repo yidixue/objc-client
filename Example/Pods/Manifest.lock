@@ -1,0 +1,16 @@
+PODS:
+  - BizSwaggerClient (0.1.0)
+
+DEPENDENCIES:
+  - BizSwaggerClient (from `../`)
+
+EXTERNAL SOURCES:
+  BizSwaggerClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BizSwaggerClient: 333bbbbf292189c36d5bf4c4a86aaed80a4d826b
+
+PODFILE CHECKSUM: d89fa8c1f5b51280738aa42741250eea14061a20
+
+COCOAPODS: 1.5.3

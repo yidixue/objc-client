@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BizSwaggerClient_Example' do
+  pod 'BizSwaggerClient', :path => '../'
+
+  target 'BizSwaggerClient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

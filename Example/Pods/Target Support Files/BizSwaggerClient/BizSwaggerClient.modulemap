@@ -1,0 +1,6 @@
+framework module BizSwaggerClient {
+  umbrella header "BizSwaggerClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
